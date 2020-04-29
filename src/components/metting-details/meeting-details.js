@@ -22,7 +22,7 @@ function meetingDetails(props) {
           <>
             <div className="confirmed-message">
               <Icon className="calendar" />
-              {props.meetingTime + ' ' + days[props.meetingDate.getDay()] + ' , ' + months[props.meetingDate.getMonth()] + props.meetingDate.getDate()
+              {props.meetingTime + ' ' + days[props.meetingDate.getDay()] + ' , ' + months[props.meetingDate.getMonth()] + ' ' + props.meetingDate.getDate()
                 + ', ' + props.meetingDate.getFullYear()
               }
             </div>
