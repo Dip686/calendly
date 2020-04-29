@@ -3,7 +3,7 @@ import {days, months} from '../../utils/util';
 function spotPicker(props) {
   return (
     <div>
-      <h4 className="spot-header">{days[props.meetingDate.getDay()] + ' , ' + months[props.meetingDate.getMonth()] + props.meetingDate.getDate()}</h4>
+      <h4 className="spot-header">{days[props.meetingDate.getDay()] + ' , ' + months[props.meetingDate.getMonth()] + ' ' + props.meetingDate.getDate()}</h4>
       <div className="spot-picker-container">
           {
             props.timeSlots.map(function blockGenerator(val, i){
