@@ -1,0 +1,3 @@
+export const timeSlots = ['12:15 PM','12.30 PM','01:00 PM','01:15 PM', '01:30 PM','02:00 PM','02:15 PM','02:30 PM', '03:00 PM', '03:15 PM', '03:30 PM','04:00 PM','05:15 PM', '05:30PM', '05:45 PM', '06:00 PM', '06:15 PM','06:30 PM', '06.45 PM','07.00 PM', '07.15 PM', '07.30 PM', '07.45 PM', '08.45 PM', '09.45 PM'];
+export const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+export const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

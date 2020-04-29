@@ -1,0 +1,135 @@
+.container {
+  margin-top: 10% !important;
+}
+.meeting-card-widget-container {
+  width: 90% !important;
+  margin: auto !important;
+}
+.host-username {
+  color: #949699;
+  margin-top: 5%;
+}
+.meeting-details-header {
+  color: #515354;
+  margin-top: 1%;
+  text-transform: capitalize;
+}
+.summary-duration {
+  color: #949699;
+}
+.summary-container, .confirmed-message{
+  margin-top: 5%;
+}
+.arrow {
+  cursor: pointer;
+}
+.react-calendar {
+  width: 90% !important;
+  border: none !important;;
+}
+.spot-btn {
+  width: 40%;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+}
+.spot-btn-time {
+  background-color: #656565;
+}
+.spot-btn-confirm {
+  background-color: #01a2ff;
+}
+.spot-time-row {
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 7px;
+  border: 1px solid #8dcaf5;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90% !important;
+  font-size: 12px;
+  color:#39a0f7;
+}
+.spot-header {
+  font-size: 16px;
+  color: #919396;
+  font-weight: lighter;
+  margin-top: 15px !important;
+}
+.spot-btn-container {
+  margin-bottom: 7px;
+}
+
+.spot-picker-container {
+  height: 50vh;
+  overflow-y: scroll;
+}
+.select-time-btn{
+  padding: 0 !important;
+}
+.meeting-confirm-container {
+  width: 60%;
+}
+.confirmed-message {
+  color: #58c19c;
+}
+.vertical-devider {
+  display: none;
+}
+.meeting-details-container {
+  padding: 2% !important;
+}
+.meeting-scheduler-container {
+  padding: 4% !important;
+  padding-right: 15px !important;
+}
+.time-zone {
+  margin-top: 5%;
+  color: #949699;
+}
+.react-calendar__tile--now{
+  background-color: #ffffd6 !important;
+  border-radius: 500px;
+}
+.react-calendar__tile--active {
+  background-color: #39a0f7 !important;
+  border-radius: 500px;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: black !important;
+}
+.troubleshoot-btn {
+  position: absolute;
+  bottom: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+  .meeting-confirm-container {
+    width: 100%;
+  }
+  .meeting-card-widget-container {
+    width: 100% !important;
+  }
+  .vertical-devider {
+    display: block;
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ededee;
+  }
+  .meeting-details-container {
+    padding: 5% !important;
+  }
+  .meeting-scheduler-container {
+    padding: 5% !important;
+  }
+  .troubleshoot-btn {
+    display: none !important;
+  }
+}
